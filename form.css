@@ -1,0 +1,94 @@
+/* Light purple background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6D4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container styling */
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Form title */
+h2 {
+    color: #4B0082;
+    margin-bottom: 20px;
+}
+
+/* Form group spacing */
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input, textarea, select styling */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+
+/* Input and select spacing */
+input, select, textarea {
+    margin-top: 5px;
+}
+
+/* Textarea specific styles */
+textarea {
+    height: 60px;
+    resize: none;
+}
+
+/* Add focus effect */
+input:focus, textarea:focus, select:focus {
+    border-color: #6A0DAD;
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 13, 173, 0.5);
+}
+
+/* Button styling */
+button {
+    background: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background: greenyellow;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+    .form-container {
+        width: 90%;
+    }
+}
