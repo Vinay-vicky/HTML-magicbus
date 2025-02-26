@@ -16,7 +16,7 @@ header {
 }
 
 .nav-menu1 {
-    background-color: aquamarine;
+    background-color: rgb(151, 70, 142);
     color: black;
     display: flex;
     justify-content: space-around;
@@ -31,7 +31,7 @@ header {
 }
 
 .nav-menu2 {
-    background-color: cadetblue;
+    background-color:#590A47;
     color: black;
     display: flex;
     justify-content: space-around;
