@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: unset;
+}
+
+.body {
+    /* display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px; */
+    background-color: aquamarine;
+}
+
+.parent {
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.child1 {
+    width: 115px;
+    height: 115px;
+    background-color: rgb(79, 6, 91);
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    border-radius: 100px;
+    position: absolute;
+    bottom: 350px;
+    left: 40px;
+}
+
+.child2 {
+    width: 115px;
+    height: 115px;
+    background-color: rgb(48, 91, 10);
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    border-radius: 100px;
+    position: absolute;  
+    bottom: 290px;
+    left: 100px;
+}
+
+.child3 {
+    width: 115px;
+    height: 115px;
+    background-color: rgb(16, 108, 73);
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    border-radius: 100px;
+    position: absolute;
+    bottom: 230px;
+    left: 155px;
+}
+
+.child4 {
+    width: 115px;
+    height: 115px;
+    background-color: rgb(101, 71, 199);
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    border-radius: 100px;
+    position: absolute;
+    bottom: 170px;
+    left: 210px;
+}
+
+.child5 {
+    width: 115px;
+    height: 115px;
+    background-color: rgb(171, 52, 163);
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    border-radius: 100px;
+    position: absolute;
+    bottom: 110px;
+    left: 260px;
+}
+
+.child6 {
+    width: 115px;
+    height: 115px;
+    background-color: rgb(18, 242, 89);
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    border-radius: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 315px;
+}

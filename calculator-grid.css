@@ -4,6 +4,11 @@
     box-sizing: unset;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 .parent {
     display: grid;
